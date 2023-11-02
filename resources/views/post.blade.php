@@ -4,7 +4,10 @@
     
         <h1>{{ $post->title }}</h1>
 
-        {{ $post->body }}
+        <p>By. Emilia Paradila S in <a href="/categories/{{ $post->category->slug }}">{{ 
+        $post->category->name }}</a></p>
+
+          {!!$post->body!!}
    
 
     <a href="/blog">Back to Posts</a>
