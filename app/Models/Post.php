@@ -24,11 +24,11 @@ class Post extends Model
             });
         });
 
-        $query->when($filters['author'] ?? false, fn($query, $author) => 
-            $query->whereHas('author', fn($query) => 
+        $query->when($filters['author'] ?? false, fn($query, $author) =>
+            $query->whereHas('author', fn($query) =>
                 $query->where('username', $author)
             )
-       ); 
+       );
     }
 
     public function category() {
@@ -38,5 +38,10 @@ class Post extends Model
 
     public function author() {
         return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
     }
 }

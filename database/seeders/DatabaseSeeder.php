@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-       
+
         // User::create([
         //     'name' => 'Emilia Paradila S',
         //     'email' => 'paradilasemilia@gmail.com',
@@ -53,7 +53,7 @@ class DatabaseSeeder extends Seeder
         //     'slug' => 'judul-pertama',
         //     'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex',
         //     'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex quis id ad vitae saepe, vel odio excepturi neque aperiam veritatis. Tempora, obcaecati. Asperiores numquam nemo fuga laudantium in error nisi cupiditate laborum dolore sapiente corporis aperiam aspernatur dolorum cumque magnam assumenda perferendis tempore doloribus repellendus dicta fugit, animi necessitatibus quos! Esse ea atque porro sapiente suscipit, id harum ad nemo repellat recusandae, quos laborum odit illo laboriosam, amet cupiditate necessitatibus facilis dolorem ut molestias iusto nulla assumenda. Recusandae nulla, unde minus accusamus odio sint, natus explicabo accusantium quos, consequuntur sunt inventore.',
-        //     'category_id' => 1, 
+        //     'category_id' => 1,
         //     'user_id' => 1
         // ]);
 
@@ -62,7 +62,7 @@ class DatabaseSeeder extends Seeder
         //     'slug' => 'judul-ke-dua',
         //     'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex',
         //     'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex quis id ad vitae saepe, vel odio excepturi neque aperiam veritatis. Tempora, obcaecati. Asperiores numquam nemo fuga laudantium in error nisi cupiditate laborum dolore sapiente corporis aperiam aspernatur dolorum cumque magnam assumenda perferendis tempore doloribus repellendus dicta fugit, animi necessitatibus quos! Esse ea atque porro sapiente suscipit, id harum ad nemo repellat recusandae, quos laborum odit illo laboriosam, amet cupiditate necessitatibus facilis dolorem ut molestias iusto nulla assumenda. Recusandae nulla, unde minus accusamus odio sint, natus explicabo accusantium quos, consequuntur sunt inventore.',
-        //     'category_id' => 1, 
+        //     'category_id' => 1,
         //     'user_id' => 1
         // ]);
 
@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
         //     'slug' => 'judul-ke-tiga',
         //     'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex',
         //     'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex quis id ad vitae saepe, vel odio excepturi neque aperiam veritatis. Tempora, obcaecati. Asperiores numquam nemo fuga laudantium in error nisi cupiditate laborum dolore sapiente corporis aperiam aspernatur dolorum cumque magnam assumenda perferendis tempore doloribus repellendus dicta fugit, animi necessitatibus quos! Esse ea atque porro sapiente suscipit, id harum ad nemo repellat recusandae, quos laborum odit illo laboriosam, amet cupiditate necessitatibus facilis dolorem ut molestias iusto nulla assumenda. Recusandae nulla, unde minus accusamus odio sint, natus explicabo accusantium quos, consequuntur sunt inventore.',
-        //     'category_id' => 2, 
+        //     'category_id' => 2,
         //     'user_id' => 1
         // ]);
 
@@ -80,7 +80,7 @@ class DatabaseSeeder extends Seeder
         //     'slug' => 'judul-ke-empat',
         //     'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex',
         //     'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque, nostrum amet consequuntur itaque aut et sint ex quis id ad vitae saepe, vel odio excepturi neque aperiam veritatis. Tempora, obcaecati. Asperiores numquam nemo fuga laudantium in error nisi cupiditate laborum dolore sapiente corporis aperiam aspernatur dolorum cumque magnam assumenda perferendis tempore doloribus repellendus dicta fugit, animi necessitatibus quos! Esse ea atque porro sapiente suscipit, id harum ad nemo repellat recusandae, quos laborum odit illo laboriosam, amet cupiditate necessitatibus facilis dolorem ut molestias iusto nulla assumenda. Recusandae nulla, unde minus accusamus odio sint, natus explicabo accusantium quos, consequuntur sunt inventore.',
-        //     'category_id' => 2, 
+        //     'category_id' => 2,
         //     'user_id' => 2
         // ]);
 
