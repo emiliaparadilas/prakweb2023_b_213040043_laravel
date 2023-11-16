@@ -8,7 +8,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="d-flex items-center gap-3 nav-link {{Request::is('dashboard/posts')?'active':'' }}" href="/dashboard/posts">
+          <a class="d-flex items-center gap-3 nav-link {{Request::is('dashboard/posts*')? 'active':'' }}" href="/dashboard/posts">
             <i class="bi bi-file-text"></i>
             My Posts
           </a>
